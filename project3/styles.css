@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+
+}
+#nav{
+
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    padding: 40px 60px;
+
+ 
+}
+
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    /* padding-right: 60px; */
+} 
+
+
+
+#nav h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#content{
+    padding:40px 60px;
+    margin-top: 60px;
+
+}
+#content h3{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+#content h1{
+    font-size: 120px;
+    font-weight: 520;
+    line-height: 100px;
+    letter-spacing: -3px;
+    word-spacing: -10px;
+}
+
+#case{
+    padding: 40px 60px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#case h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#case h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    width: 130px;
+    background-color: black;
+}
+
+#projects{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 70px;
+}
+
+.elem{
+    width: 50%;
+
+}
+
+.elem-img{
+    height: 600px;
+    background-color: red;
+    width: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+#img1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXyaMQIsfKYasvXeeH4dvUrrtQjiTcCQh7l0IfO7qq45rR_Wt9 );
+}
+#img2{
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfRL4qSJjQGPUUqjfRGg5arZWDzUWhevfpjRbx5MHgDnDp05cI);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+
+}
+.bottom i{
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: 500;
+   
+    
+}
+
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.bottom h4{
+    font-size: 20px;
+    color:rgb(83, 81, 81);
+    font-weight: 500;
+
+}
